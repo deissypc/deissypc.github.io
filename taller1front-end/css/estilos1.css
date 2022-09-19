@@ -1,0 +1,154 @@
+*{
+    font-family:Comic Sans MS, arial, verdana;  
+  }
+
+body{
+    background-image: url("../img/descarga.jpg");
+    background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.ejer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  margin:15em;
+  justify-content: center;  
+}
+.ejer h1{
+  font-size:230%;
+}
+.cuadro{
+    display: flex;
+    align-items: center;
+    margin: 2em;
+    justify-content: center;
+   
+    
+}
+.cuadro input{
+    padding: 20px;
+    width: 430px;
+    text-align: center;
+    border-radius: 2em;
+    font-size: 150%;
+}
+.principal{
+    display: flex;
+    justify-content: space-around;
+}
+
+.m{
+    padding: 30px;
+    width: 300px;
+    background-color: black;
+    opacity: 75%;
+    border-radius: 1em;
+    font-size: 130%;
+    margin: 1em;
+    color: white;
+   border-color: white;
+   cursor: pointer;
+   
+}
+
+.m:hover{
+  background-color:white;
+  color:black;
+  border-color:black; 
+  cursor: pointer;
+ }
+
+ select{
+  padding:10px;
+  width:150px;
+  cursor: pointer;
+ }
+
+ span{
+  font-size:130%;
+ }
+
+ .fila{
+  display: flex;
+flex-direction: column;
+ }
+
+ .fila input{
+  padding: 10px;
+    width: 430px;
+    text-align: center;
+    border-radius: 2em;
+    font-size: 120%;
+ }
+
+ .n{
+  display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+  padding: 15px;
+  width: 200px;
+  background-color: black;
+  opacity: 75%;
+  border-radius: 1em;
+  font-size: 130%;
+ 
+  color: white;
+ border-color: white;
+ 
+}
+
+.n:hover{
+background-color:white;
+color:black;
+border-color:black; 
+cursor: pointer;
+}
+
+.caja1{
+background-color: white;
+width: 290px;
+height: 400px;
+margin: 2em;
+border-radius: 2em;
+}
+.caja1 h5{
+  display: flex;
+  justify-content: center;
+  }
+  .caja1 button{
+   margin: 20px;
+   padding:10px;
+  margin-top: -1%;
+  width:95px;
+  }
+
+  .caja2{
+    background-color:black;
+    width: 290px;
+    height: 400px;
+    margin: 2em;
+    border-radius: 2em;
+   
+    }
+    .caja2 h5{
+      display: flex;
+      justify-content: center;
+      color:white;
+      }
+      .caja2 button{
+       margin: 20px;
+       padding:10px;
+      margin-top: -1%;
+      width:95px;
+      }
+
+  .caja{
+    display: flex;
+   flex-wrap: wrap;
+  margin-top: 1%;
+    justify-content: center;
+
+  }
+  
